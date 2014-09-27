@@ -1,0 +1,86 @@
+\documentclass[a4paper]{article}
+\usepackage{multirow}
+\usepackage[text={150mm,200mm},top=30mm,bottom=15mm]{geometry}
+\newtoks\team
+\newtoks\tihao
+%%%=============================================================================================
+\begin{document}
+\setcounter{page}{0}
+\pagestyle{empty}
+\team{7380}
+\tihao{A}
+\begin{center}
+\begin{tabular}{c@{\hspace{1mm}}c}
+  \multicolumn{2}{l}{For office use only}\\
+  T1 & {\underline {\makebox[8em][s]{}}}\\
+  T2 & {\underline {\makebox[8em][s]{}}}\\
+  T3 & {\underline {\makebox[8em][s]{}}}\\
+  T4 & {\underline {\makebox[8em][s]{}}}\\
+\end{tabular}\hfill
+\begin{tabular}{c}
+  Team Control Number\\
+  \multirow{2}*{\textbf{\Huge \the\team}}\\
+  \\
+  Problem Chosen\\
+  {\textbf{\huge \the\tihao }}\\
+\end{tabular}\hfill
+\begin{tabular}{c@{\hspace{1mm}}c}
+  \multicolumn{2}{l}{For office use only}\\
+  F1 & {\underline {\makebox[8em][s]{}}}\\
+  F2 & {\underline {\makebox[8em][s]{}}}\\
+  F3 & {\underline {\makebox[8em][s]{}}}\\
+  F4 & {\underline {\makebox[8em][s]{}}}\\
+\end{tabular}
+\end{center}
+
+\addvspace{1.5cm}
+
+\begin{center}
+\textbf{2010 Mathematical Contest in Modeling (MCM) Summary Sheet} \newline
+(Attach a copy of this page to each copy of your solution paper.)
+\end{center}
+
+\begin{center}
+Type a summary of your results on this page. Do not include \newline
+the name of your school, advisor, or team members on this page. \newline
+
+\end{center}
+
+\begin{center}
+\textbf{The Determination of the ``Sweet Spot" Base on Mechanics Simulation}
+\end{center}
+\setlength{\parindent}{0pt} \setlength{\parskip}{1.5ex plus 0.5ex
+minus 0.2ex}
+It is well known that there is a sweet spot on the bat, and it plays
+an important role in baseball sport. In this paper, we address the
+problem associated with three main portions include the position of
+the sweet spot, the influences of the corked bat, and the
+differences among different materials bat. We consider two important
+models in hopes of solving the problems about the ``sweet spot".
+
+The Plane Mechanics Model established by the \textbf{law of
+conservation of momentum} is to solve the three main portions.
+First, we analyze the direct impact of the ball and the bat, and
+then get the relationship between the speed of the batted ball and
+the hitting position, which makes sure the position of the sweet
+spot where is not at the end of the bat. This model denies
+``corking" a bat enhances the ``sweet spot" effect without
+considering the corked bat easily controlled. Eventually, by using
+the existing data about the different materials bat we know the
+aluminum bat is better than the wood bat.
+
+After presenting the above model, a \textbf{three-dimensional
+Computer Model} which can \textbf{randomly simulate} the process of
+athletes hit the ball in the ball park. From the simulation result,
+We get the range of batted ball and find the standard deviation of
+the range using the unmodified bat is larger than using the corded
+bat, this is why the corked bat prohibited. On the other hand, it
+explains the reason why the aluminum bat is prohibited by Major
+League Baseball is that using a aluminum bat is contrary to the
+principle of athletic, fairness and safety in the baseball games.
+
+In conclusion, our algorithm is quite easy to implement and to solve
+the problem successfully. Though there remain some weaknesses in our
+model, it still has the significance for promoting to extensive use.
+
+\end{document}

@@ -1,0 +1,49 @@
+% @author zhoulvwen
+% zhou.lv.wen@gmail.com
+\documentclass[12pt,a4paper,titlepage]{article}
+\usepackage[left=1in,right=1in,top=1.5in,bottom=1.5in]{geometry}
+\usepackage{amsthm, amsmath, amsfonts, amssymb, hyperref}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{fancyhdr}
+\usepackage{mcode}
+\usepackage{graphicx}
+\usepackage[toc,page,title,titletoc,header]{appendix}
+\usepackage{color}
+\usepackage{titlesec}
+\usepackage{lastpage}
+\graphicspath{{figures/}}
+\setlength{\parskip}{7.5pt plus 2pt minus 2pt}
+
+\pagestyle{fancy} 
+\lhead{Team \# 7380} 
+\rhead{Page \thepage\ of \pageref{LastPage}} 
+
+\setlength{\parindent}{0pt}
+\begin{document}
+
+\title{The Determination of the ``Sweet Spot" Base on Mechanics Simulation}
+\author{\vspace{35pt}\\Zhou Lvwen\\Wang Fengge\\Yan Keqin\\ \vspace{35pt}}
+\date{COMAP Mathematical Contest in Modeling\\February 22, 2010\\DaLian University, China}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./sections/Abstract}
+
+\newpage\tableofcontents\newpage
+
+\input{./sections/Introduction}
+\input{./sections/Problem_Setup}
+\input{./sections/Model_1}
+\input{./sections/Computer_Model}
+\input{./sections/Result}
+\input{./sections/Strangths_and_Weaknesses}
+\input{./sections/Alternative_Approaches_and_Future_Work}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\input{./sections/thebibliography}
+\newpage
+\input{./sections/Appendix}
+\end{document}
+
